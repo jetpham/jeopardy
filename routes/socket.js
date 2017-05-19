@@ -20,14 +20,33 @@ module.exports = function (io) {
       console.log('round:end ' + data.round);
       if (data.round === 'J') {
         data.round = 'DJ';
-        if (data.player_1.score < data.player_2.score && data.player_1.score < data.player_3.score) {
-          data.control_player = 'player_1';
+        
+        //figure out who has control
+        lowest_score = Math.min(data.player_1.score,data.player_2.score,data.player_3.score,data.player_4.score,data.player_5.score,data.player_6.score);
+        
+        if(lowest_score == data.player_1.score)
+        {
+        	data.control_player = 'player_1';
         }
-        else if (data.player_2.score < data.player_1.score && data.player_2.score < data.player_3.score) {
-          data.control_player = 'player_2';
+        else if(lowest_score == data.player_2.score)
+        {
+        	data.control_player = 'player_2';
         }
-        else if (data.player_3.score < data.player_1.score && data.player_3.score < data.player_2.score) {
-          data.control_player = 'player_3';
+        else if(lowest_score == data.player_3.score)
+        {
+        	data.control_player = 'player_3';
+        }
+        else if(lowest_score == data.player_4.score)
+        {
+        	data.control_player = 'player_4';
+        }
+        else if(lowest_score == data.player_5.score)
+        {
+        	data.control_player = 'player_5';
+        }
+        else
+        {
+        	data.control_player = 'player_6';
         }
       }
       else if (data.round === 'DJ') {
