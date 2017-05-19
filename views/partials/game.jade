@@ -16,6 +16,8 @@ nav.navbar.navbar-default.navbar-fixed-top
               .input-group-addon {{game.player_#{i}.score || 0 | currency:'$':0}}
       ul.nav.navbar-nav.navbar-right
         li
+          button.btn.btn-primary.navbar-btn(type='button', ng-click='showBoard()',) Show Board
+        li
           button.btn.btn-primary.navbar-btn(type='button', ng-click='startGame()', ng-show='!game.round') Start Game
           button.btn.btn-primary.navbar-btn(type='button', ng-click='endRound()', ng-show='game.round == "J" || game.round == "DJ" || game.round == "FJ"') End Round
           button.btn.btn-danger.navbar-btn(type='button', ng-click='resetGame()', ng-show='game.round == "end"') Reset Game

@@ -18,6 +18,10 @@ angular.module('myApp.controllers').
       $scope.game = data.game;
     });
 
+	$scope.showBoard = function() {
+		window.open('/#/board','_blank');
+	};
+
     $scope.startGame = function () {
       console.log('game:start emit');
       socket.emit('game:start', {
