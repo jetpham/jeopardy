@@ -6,7 +6,7 @@ nav.navbar.navbar-default.navbar-fixed-top
         span(ng-show='game.round == "FJ"') Final
         |  Jeopardy!
     .collapse.navbar-collapse
-      each i in [1, 2, 3]
+      each i in [1, 2, 3, 4, 5, 6]
         form.navbar-form.navbar-left
           .form-group
             .input-group
@@ -24,7 +24,10 @@ nav.navbar.navbar-default.navbar-fixed-top
   br
   br
   br
-
+  br
+  br
+  br
+  
   div(ng-hide='game.round')
     .alert.alert-warning(ng-hide='data.game_complete')
       strong Warning!
@@ -77,7 +80,7 @@ nav.navbar.navbar-default.navbar-fixed-top
         |  {{data.category_FJ_1.category_comments}}
       .panel-body(ng-show='!game.clue_FJ')
         .row
-          each i in [1, 2, 3]
+          each i in [1, 2, 3, 4, 5, 6]
             .col-md-4.text-center
               h4 {{ game.player_#{i}.name || 'Player #{i}' }}
               .input-group
@@ -86,7 +89,6 @@ nav.navbar.navbar-default.navbar-fixed-top
         br
         .row
           .col-md-12.text-center
-            a(target='_blank', ng-href='http://www.j-archive.com/wageringcalculator.php?a={{game.player_1.score}}&b={{game.player_2.score}}&c={{game.player_3.score}}&player_a={{game.player_1.name}}&player_b={{game.player_2.name}}&player_c={{game.player_3.name}}') [wagering suggestions for these scores]
       .panel-footer.text-center(ng-show='!game.clue_FJ')
         button.btn.btn-lg.btn-success(type="button", ng-click="startClue('clue_FJ')") Submit
 

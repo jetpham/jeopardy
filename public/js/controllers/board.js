@@ -36,6 +36,29 @@ angular.module('myApp.controllers').
               currencyFilter(($scope.game.player_3 && $scope.game.player_3.score) || 0, '$', 0) +
             '</div>' +
           '</div>' +
+        '</div>' + 
+        '<div class="row">' +
+          '<div class="col-md-4 text-center">' +
+            '<div class="player-name">' +
+              (($scope.game.player_4 && $scope.game.player_4.name) || 'Player 4') +
+            '</div><div class="player-score">' +
+              currencyFilter(($scope.game.player_4 && $scope.game.player_4.score) || 0, '$', 0) +
+            '</div>' +
+          '</div>' +
+          '<div class="col-md-4 text-center">' +
+            '<div class="player-name">' +
+              (($scope.game.player_5 && $scope.game.player_5.name) || 'Player 5') +
+            '</div><div class="player-score">' +
+              currencyFilter(($scope.game.player_5 && $scope.game.player_5.score) || 0, '$', 0) +
+            '</div>' +
+          '</div>' +
+          '<div class="col-md-4 text-center">' +
+            '<div class="player-name">' +
+              (($scope.game.player_6 && $scope.game.player_6.name) || 'Player 6') +
+            '</div><div class="player-score">' +
+              currencyFilter(($scope.game.player_6 && $scope.game.player_6.score) || 0, '$', 0) +
+            '</div>' +
+          '</div>' +
         '</div>';
     }
 

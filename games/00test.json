@@ -1,0 +1,465 @@
+{
+  "id": "00test",
+  "game_title": "Test Game",
+  "game_comments": "This is the comment for Test Game",
+  "game_complete": false,
+  "title": "Test Game",
+  "comments": "Game 7353",
+  "J": {
+    "category_J_1": {
+      "category_name": "BASEBALL",
+      "category_comments": "(Alex: All of the clues were recorded at the Ronald Reagan Presidential Library, where they were having a very special baseball exhibition.)"
+    },
+    "category_J_2": {
+      "category_name": "FRUIT STAND",
+      "category_comments": ""
+    },
+    "category_J_3": {
+      "category_name": "5-LETTER MUSICAL INSTRUMENTS",
+      "category_comments": ""
+    },
+    "category_J_4": {
+      "category_name": "TIME'S PERSON OF THE YEAR",
+      "category_comments": ""
+    },
+    "category_J_5": {
+      "category_name": "ENGLAND, SCOTLAND OR WALES",
+      "category_comments": "(Alex: You tell us.)"
+    },
+    "category_J_6": {
+      "category_name": "WAYS OF BEING",
+      "category_comments": "(Alex: Each correct response will begin with a form of the verb \"to be\".)"
+    },
+    "clue_J_1_1": {
+      "id": "308284",
+      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_11.jpg\" target=\"_blank\">Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  In San Diego on August 4, 2007, Barry Bonds hit this ball 382 feet to tie the all-time home run record of this man, technically",
+      "clue_text": "(Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.)  In San Diego on August 4, 2007, Barry Bonds hit this ball 382 feet to tie the all-time home run record of this man, technically",
+      "correct_response": "Hank Aaron",
+      "media": [
+        "http://localhost:3000/media/2016-07-27_J_11.jpg"
+      ]
+    },
+    "clue_J_2_1": {
+      "id": "308310",
+      "clue_html": "Golden pippin &amp; Ambrosia are types of this",
+      "clue_text": "Golden pippin & Ambrosia are types of this",
+      "correct_response": "an apple"
+    },
+    "clue_J_3_1": {
+      "id": "308312",
+      "clue_html": "In 2015 Steve Martin &amp; Pete Seeger were inducted into the Hall of Fame for this instrument",
+      "clue_text": "In 2015 Steve Martin & Pete Seeger were inducted into the Hall of Fame for this instrument",
+      "correct_response": "the banjo"
+    },
+    "clue_J_4_1": {
+      "id": "308315",
+      "clue_html": "2004: &quot;For reshaping the rules of politics to fit his ten-gallon style&quot;",
+      "clue_text": "2004: \"For reshaping the rules of politics to fit his ten-gallon style\"",
+      "correct_response": "George W. Bush"
+    },
+    "clue_J_5_1": {
+      "id": "308317",
+      "clue_html": "Holyhead,<br>Pwll",
+      "clue_text": "Holyhead,Pwll",
+      "correct_response": "Wales"
+    },
+    "clue_J_6_1": {
+      "id": "308321",
+      "clue_html": "In Roman amphitheaters, trap doors led to numerous passageways beneath this fighting space",
+      "clue_text": "In Roman amphitheaters, trap doors led to numerous passageways beneath this fighting space",
+      "correct_response": "the arena"
+    },
+    "clue_J_1_2": {
+      "id": "308285",
+      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_12.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Here&apos;s the ball hit by this Yankee legend who broke a 44-game hitting streak record held by &quot;Wee Willie&quot; Keeler",
+      "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Here's the ball hit by this Yankee legend who broke a 44-game hitting streak record held by \"Wee Willie\" Keeler",
+      "correct_response": "Joe DiMaggio",
+      "media": [
+        "http://localhost:3000/media/2016-07-27_J_12.jpg"
+      ]
+    },
+    "clue_J_2_2": {
+      "id": "308311",
+      "clue_html": "Texas developed the Ruby type of this citrus fruit",
+      "clue_text": "Texas developed the Ruby type of this citrus fruit",
+      "correct_response": "a grapefruit"
+    },
+    "clue_J_3_2": {
+      "id": "308313",
+      "clue_html": "It must have been magic; a platinum one of these woodwinds with silver keys sold for $187,000 in 1986",
+      "clue_text": "It must have been magic; a platinum one of these woodwinds with silver keys sold for $187,000 in 1986",
+      "correct_response": "a flute"
+    },
+    "clue_J_4_2": {
+      "id": "308316",
+      "clue_html": "1995: &quot;Speaker of the House spearheaded G.O.P.&apos;s sweeping Congressional victory&quot;",
+      "clue_text": "1995: \"Speaker of the House spearheaded G.O.P.'s sweeping Congressional victory\"",
+      "correct_response": "(Newt) Gingrich"
+    },
+    "clue_J_5_2": {
+      "id": "308296",
+      "clue_html": "Dunoon,<br>Clydebank",
+      "clue_text": "Dunoon,Clydebank",
+      "correct_response": "Scotland"
+    },
+    "clue_J_6_2": {
+      "id": "308297",
+      "triple_stumper": true,
+      "clue_html": "Last name of Geoffrey, the first American fashion designer to open a Milan show",
+      "clue_text": "Last name of Geoffrey, the first American fashion designer to open a Milan show",
+      "correct_response": "Beene"
+    },
+    "clue_J_1_3": {
+      "id": "308286",
+      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_14.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  No major leaguer will ever again be permanently assigned the number of the jersey worn by this man",
+      "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  No major leaguer will ever again be permanently assigned the number of the jersey worn by this man",
+      "correct_response": "Jackie Robinson",
+      "media": [
+        "http://localhost:3000/media/2016-07-27_J_14.jpg"
+      ]
+    },
+    "clue_J_2_3": {
+      "id": "308288",
+      "clue_html": "Get anatomical with a cluster navel or Moro blood one",
+      "clue_text": "Get anatomical with a cluster navel or Moro blood one",
+      "correct_response": "an orange"
+    },
+    "clue_J_3_3": {
+      "id": "308291",
+      "daily_double": true,
+      "clue_html": "&#x201C;Pipedreams&#x201D; is a public radio program devoted to this keyboard instrument",
+      "clue_text": "ìPipedreamsî is a public radio program devoted to this keyboard instrument",
+      "correct_response": "the organ"
+    },
+    "clue_J_4_3": {
+      "id": "308293",
+      "clue_html": "1958: &quot;Crisis in Algeria brought WWII hero back to power in France&quot;",
+      "clue_text": "1958: \"Crisis in Algeria brought WWII hero back to power in France\"",
+      "correct_response": "de Gaulle"
+    },
+    "clue_J_5_3": {
+      "id": "308318",
+      "clue_html": "Slough,<br>Rutland",
+      "clue_text": "Slough,Rutland",
+      "correct_response": "England"
+    },
+    "clue_J_6_3": {
+      "id": "308322",
+      "clue_html": "This powdered root is mixed with water &amp; adds spiciness to sashimi",
+      "clue_text": "This powdered root is mixed with water & adds spiciness to sashimi",
+      "correct_response": "wasabi"
+    },
+    "clue_J_1_4": {
+      "id": "308287",
+      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_15.jpg\" target=\"_blank\">Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Here&apos;s the 1957 MVP award for this Yankee, but that was a bit of an off year for him: he&apos;d won the Triple Crown the previous year with 18 more home runs &amp; 36 more RBIs",
+      "clue_text": "(Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Here's the 1957 MVP award for this Yankee, but that was a bit of an off year for him: he'd won the Triple Crown the previous year with 18 more home runs & 36 more RBIs",
+      "correct_response": "Mickey Mantle",
+      "media": [
+        "http://localhost:3000/media/2016-07-27_J_15.jpg"
+      ]
+    },
+    "clue_J_2_4": {
+      "id": "308289",
+      "clue_html": "There&apos;s a giant type of this lime named for islands",
+      "clue_text": "There's a giant type of this lime named for islands",
+      "correct_response": "the key lime"
+    },
+    "clue_J_3_4": {
+      "id": "308314",
+      "clue_html": "This instrument used for military calls has no valves or keys; tones are made by changing the tension of the lips",
+      "clue_text": "This instrument used for military calls has no valves or keys; tones are made by changing the tension of the lips",
+      "correct_response": "the bugle"
+    },
+    "clue_J_4_4": {
+      "id": "308294",
+      "clue_html": "1981: &quot;Solidarity leader struck first blows against Kremlin&apos;s empire&quot;",
+      "clue_text": "1981: \"Solidarity leader struck first blows against Kremlin's empire\"",
+      "correct_response": "Lech Walesa"
+    },
+    "clue_J_5_4": {
+      "id": "308319",
+      "triple_stumper": true,
+      "clue_html": "Woking,<br>Bootle",
+      "clue_text": "Woking,Bootle",
+      "correct_response": "England"
+    },
+    "clue_J_6_4": {
+      "id": "308298",
+      "clue_html": "A narrow strip of land; Greece has one of Corinth",
+      "clue_text": "A narrow strip of land; Greece has one of Corinth",
+      "correct_response": "an isthmus"
+    },
+    "clue_J_1_5": {
+      "id": "308309",
+      "triple_stumper": true,
+      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_21.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Check out the incredibly rare 1909-11 t206 card of this &quot;Flying Dutchman&quot;; in 2013, one went at auction for $2.1 million",
+      "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Check out the incredibly rare 1909-11 t206 card of this \"Flying Dutchman\"; in 2013, one went at auction for $2.1 million",
+      "correct_response": "Honus Wagner",
+      "media": [
+        "http://localhost:3000/media/2016-07-27_J_21.jpg"
+      ]
+    },
+    "clue_J_2_5": {
+      "id": "308290",
+      "clue_html": "The halaway is a sweet type of this palm fruit",
+      "clue_text": "The halaway is a sweet type of this palm fruit",
+      "correct_response": "a date"
+    },
+    "clue_J_3_5": {
+      "id": "308292",
+      "clue_html": "Alisa Weilerstein &amp; Mstislav Rostropovich are famed players of this stringed instrument",
+      "clue_text": "Alisa Weilerstein & Mstislav Rostropovich are famed players of this stringed instrument",
+      "correct_response": "a cello"
+    },
+    "clue_J_4_5": {
+      "id": "308295",
+      "clue_html": "1935: Ethiopia&apos;s king fought an incursion by Italy&apos;s strongman, Mussolini",
+      "clue_text": "1935: Ethiopia's king fought an incursion by Italy's strongman, Mussolini",
+      "correct_response": "(Haile) Selassie"
+    },
+    "clue_J_5_5": {
+      "id": "308320",
+      "clue_html": "Bangor,<br>Swansea",
+      "clue_text": "Bangor,Swansea",
+      "correct_response": "Wales"
+    },
+    "clue_J_6_5": {
+      "id": "308323",
+      "clue_html": "Yes, Miss Earhart, this 10-letter word means &quot;to improve&quot;",
+      "clue_text": "Yes, Miss Earhart, this 10-letter word means \"to improve\"",
+      "correct_response": "ameliorate"
+    }
+  },
+  "DJ": {
+    "category_DJ_1": {
+      "category_name": "DANIEL BOONE WAS A MAN",
+      "category_comments": ""
+    },
+    "category_DJ_2": {
+      "category_name": "MONEY MATTERS",
+      "category_comments": ""
+    },
+    "category_DJ_3": {
+      "category_name": "COMEDY TONIGHT",
+      "category_comments": ""
+    },
+    "category_DJ_4": {
+      "category_name": "LITERARY SISTERS",
+      "category_comments": ""
+    },
+    "category_DJ_5": {
+      "category_name": "BEASTLY APPENDAGES",
+      "category_comments": ""
+    },
+    "category_DJ_6": {
+      "category_name": "KICK OUT THE \"JAM\"s",
+      "category_comments": ""
+    },
+    "clue_DJ_1_1": {
+      "id": "308368",
+      "clue_html": "The real Boone favored beaver hats, not these alliterative items, which he is said to have thought uncivilized",
+      "clue_text": "The real Boone favored beaver hats, not these alliterative items, which he is said to have thought uncivilized",
+      "correct_response": "coonskin caps"
+    },
+    "clue_DJ_2_1": {
+      "id": "308370",
+      "triple_stumper": true,
+      "clue_html": "In 2015 a California man paid $2.5 million (or 250 million of these) for just one of these made in 1792",
+      "clue_text": "In 2015 a California man paid $2.5 million (or 250 million of these) for just one of these made in 1792",
+      "correct_response": "a penny"
+    },
+    "clue_DJ_3_1": {
+      "id": "308325",
+      "clue_html": "How do you stop police from tailing you in L.A.? Get Damon Wayans to give you bananas, like Eddie Murphy did in this &apos;84 film",
+      "clue_text": "How do you stop police from tailing you in L.A.? Get Damon Wayans to give you bananas, like Eddie Murphy did in this '84 film",
+      "correct_response": "Beverly Hills Cop"
+    },
+    "clue_DJ_4_1": {
+      "id": "308341",
+      "clue_html": "She&apos;s Blanche DuBois&apos; sister",
+      "clue_text": "She's Blanche DuBois' sister",
+      "correct_response": "Stella"
+    },
+    "clue_DJ_5_1": {
+      "id": "308372",
+      "clue_html": "The venom-packed stinger of the Arizona barbed variety of <a href=\"http://www.j-archive.com/media/2016-07-27_DJ_30.jpg\" target=\"_blank\">this</a> desert arachnid can deliver a fatal dose to humans",
+      "clue_text": "The venom-packed stinger of the Arizona barbed variety of this desert arachnid can deliver a fatal dose to humans",
+      "correct_response": "a scorpion",
+      "media": [
+        "http://localhost:3000/media/2016-07-27_DJ_30.jpg"
+      ]
+    },
+    "clue_DJ_6_1": {
+      "id": "308373",
+      "clue_html": "Let&apos;s have one of these alliterative 2-word sleepovers",
+      "clue_text": "Let's have one of these alliterative 2-word sleepovers",
+      "correct_response": "a pajama party"
+    },
+    "clue_DJ_1_2": {
+      "id": "308338",
+      "clue_html": "Born in 1734, Daniel was turned down when he volunteered to serve in this conflict at the age of 78",
+      "clue_text": "Born in 1734, Daniel was turned down when he volunteered to serve in this conflict at the age of 78",
+      "correct_response": "the War of 1812"
+    },
+    "clue_DJ_2_2": {
+      "id": "308339",
+      "clue_html": "In 2012 this former Argentine first lady was honored on that country&apos;s 100-peso note",
+      "clue_text": "In 2012 this former Argentine first lady was honored on that country's 100-peso note",
+      "correct_response": "Eva PerÛn"
+    },
+    "clue_DJ_3_2": {
+      "id": "308326",
+      "clue_html": "<a href=\"http://www.j-archive.com/media/2016-07-27_DJ_06.jpg\" target=\"_blank\">This</a> late, great comic said, &quot;Nice guys finish first. if you don&apos;t know that, then you don&apos;t know where the finish line is&quot;",
+      "clue_text": "This late, great comic said, \"Nice guys finish first. if you don't know that, then you don't know where the finish line is\"",
+      "correct_response": "(Garry) Shandling",
+      "media": [
+        "http://localhost:3000/media/2016-07-27_DJ_06.jpg"
+      ]
+    },
+    "clue_DJ_4_2": {
+      "id": "308371",
+      "triple_stumper": true,
+      "clue_html": "In books by Beverly Cleary, Ramona&apos;s older sister is Beatrice, nicknamed this",
+      "clue_text": "In books by Beverly Cleary, Ramona's older sister is Beatrice, nicknamed this",
+      "correct_response": "Beezus"
+    },
+    "clue_DJ_5_2": {
+      "id": "308342",
+      "clue_html": "To eat, snails extend a digestive organ called a radula covered with thousands of denticles, their version of these",
+      "clue_text": "To eat, snails extend a digestive organ called a radula covered with thousands of denticles, their version of these",
+      "correct_response": "teeth"
+    },
+    "clue_DJ_6_2": {
+      "id": "308344",
+      "clue_html": "I&apos;ll skip the crawfish pie &amp; file gumbo, but pas me this rice, meat &amp; seafood dish",
+      "clue_text": "I'll skip the crawfish pie & file gumbo, but pas me this rice, meat & seafood dish",
+      "correct_response": "jambalaya"
+    },
+    "clue_DJ_1_3": {
+      "id": "308369",
+      "clue_html": "After Boone&apos;s death in 1820, this Brit made him the subject of 7 stanzas of &quot;Don Juan&quot;",
+      "clue_text": "After Boone's death in 1820, this Brit made him the subject of 7 stanzas of \"Don Juan\"",
+      "correct_response": "Lord Byron"
+    },
+    "clue_DJ_2_3": {
+      "id": "308324",
+      "triple_stumper": true,
+      "clue_html": "Lady Liberty used to be on the obverse of this coin until a president began getting face time in 1946",
+      "clue_text": "Lady Liberty used to be on the obverse of this coin until a president began getting face time in 1946",
+      "correct_response": "dime"
+    },
+    "clue_DJ_3_3": {
+      "id": "308327",
+      "clue_html": "In standup specials this &quot;D List&quot; comic &quot;Does the Bible Belt&quot; &amp; was &quot;50 and not Pregnant&quot;",
+      "clue_text": "In standup specials this \"D List\" comic \"Does the Bible Belt\" & was \"50 and not Pregnant\"",
+      "correct_response": "Kathy Griffin"
+    },
+    "clue_DJ_4_3": {
+      "id": "308332",
+      "clue_html": "Jessica &amp; Elizabeth are the twin blonde sisters introduced in the &quot;Sweet&quot; series of young adult books",
+      "clue_text": "Jessica & Elizabeth are the twin blonde sisters introduced in the \"Sweet\" series of young adult books",
+      "correct_response": "Sweet Valley High"
+    },
+    "clue_DJ_5_3": {
+      "id": "308330",
+      "clue_html": "On animals like lizards, autotomy is an evasive defense mechanism that lets them do this",
+      "clue_text": "On animals like lizards, autotomy is an evasive defense mechanism that lets them do this",
+      "correct_response": "get rid of their tail"
+    },
+    "clue_DJ_6_3": {
+      "id": "308336",
+      "clue_html": "Slang for money, particularly in $100 form",
+      "clue_text": "Slang for money, particularly in $100 form",
+      "correct_response": "Benjamins"
+    },
+    "clue_DJ_1_4": {
+      "id": "308366",
+      "triple_stumper": true,
+      "clue_html": "In 1775 Boone bought his family to this settlement that still bears his name",
+      "clue_text": "In 1775 Boone bought his family to this settlement that still bears his name",
+      "correct_response": "Boonesborough"
+    },
+    "clue_DJ_2_4": {
+      "id": "308331",
+      "daily_double": true,
+      "clue_html": "It&#x2019;s the basic monetary unit of Gibraltar",
+      "clue_text": "Itís the basic monetary unit of Gibraltar",
+      "correct_response": "the pound"
+    },
+    "clue_DJ_3_4": {
+      "id": "308328",
+      "clue_html": "Lucille Bluth, on this show: &quot;That coat cost more than your house!... Oh, that&apos;s how we joke. She doesn&apos;t even have a house&quot;",
+      "clue_text": "Lucille Bluth, on this show: \"That coat cost more than your house!... Oh, that's how we joke. She doesn't even have a house\"",
+      "correct_response": "Arrested Development"
+    },
+    "clue_DJ_4_4": {
+      "id": "308333",
+      "daily_double": true,
+      "clue_html": "Suellen &amp; Carreen O&#x2019;Hara are a flighty pair of sisters in this novel.",
+      "clue_text": "Suellen & Carreen OíHara are a flighty pair of sisters in this novel.",
+      "correct_response": "Gone with the Wind"
+    },
+    "clue_DJ_5_4": {
+      "id": "308335",
+      "clue_html": "The 22 bright pink appendages of this uniquely &quot;nosed&quot; mole are used to identify prey",
+      "clue_text": "The 22 bright pink appendages of this uniquely \"nosed\" mole are used to identify prey",
+      "correct_response": "star (the star-nosed mole)"
+    },
+    "clue_DJ_6_4": {
+      "id": "308337",
+      "triple_stumper": true,
+      "clue_html": "The first part of the name of these krazy klassic komic &quot;Kids&quot; is from an old word for a hangover",
+      "clue_text": "The first part of the name of these krazy klassic komic \"Kids\" is from an old word for a hangover",
+      "correct_response": "the Katzenjammer Kids"
+    },
+    "clue_DJ_1_5": {
+      "id": "308367",
+      "triple_stumper": true,
+      "clue_html": "In 1775 Boone &amp; about 30 companions built this &quot;Road&quot; leading from Virginia into Kentucky &amp; points west",
+      "clue_text": "In 1775 Boone & about 30 companions built this \"Road\" leading from Virginia into Kentucky & points west",
+      "correct_response": "the Wilderness Road"
+    },
+    "clue_DJ_2_5": {
+      "id": "308340",
+      "clue_html": "A 2007 Portuguese 5-euro coin honoring the Boy Scout depicted this Brit",
+      "clue_text": "A 2007 Portuguese 5-euro coin honoring the Boy Scout depicted this Brit",
+      "correct_response": "(Lord) Baden-Powell"
+    },
+    "clue_DJ_3_5": {
+      "id": "308329",
+      "clue_html": "Luther was President Obama&apos;s &quot;anger translator&quot; on this Comedy Central show",
+      "clue_text": "Luther was President Obama's \"anger translator\" on this Comedy Central show",
+      "correct_response": "Key & Peele"
+    },
+    "clue_DJ_4_5": {
+      "id": "308334",
+      "clue_html": "Last name of Elinor &amp; Marianne, the sisters who embody the &quot;Sense &amp; Sensibility&quot; in Jane Austen&apos;s novel",
+      "clue_text": "Last name of Elinor & Marianne, the sisters who embody the \"Sense & Sensibility\" in Jane Austen's novel",
+      "correct_response": "Dashwood"
+    },
+    "clue_DJ_5_5": {
+      "id": "308343",
+      "triple_stumper": true,
+      "clue_html": "These lesser apes have 5 toes on each foot just like us, but the big toe is opposable",
+      "clue_text": "These lesser apes have 5 toes on each foot just like us, but the big toe is opposable",
+      "correct_response": "gibbons"
+    },
+    "clue_DJ_6_5": {
+      "id": "308345",
+      "clue_html": "It&apos;s paired with &quot;Kashmir&quot; in the name of an Indian state",
+      "clue_text": "It's paired with \"Kashmir\" in the name of an Indian state",
+      "correct_response": "Jammu"
+    }
+  },
+  "FJ": {
+    "category_FJ_1": {
+      "category_name": "20th CENTURY ENGLISH NOBILITY",
+      "category_comments": ""
+    },
+    "clue_FJ": {
+      "clue_html": "In Africa on Nov. 26, 1922, he anxiously asked Howard Carter, &#x201C;Can you see anything?&#x201D;",
+      "clue_text": "In Africa on Nov. 26, 1922, he anxiously asked Howard Carter, ìCan you see anything?î",
+      "correct_response": "Lord Carnarvon"
+    }
+  }
+}

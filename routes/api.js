@@ -5,11 +5,16 @@
 var request = require('request');
 var cheerio = require('cheerio');
 var _ = require('lodash');
+var fs = require('fs');
 
-function exportIndex (req, res, next) {
+function exportIndex (req, res, next, isSeasonsList=false) {
   return function (error, response, html) {
     if (!error) {
       var $ = cheerio.load(html), result = [];
+      if (isSeasonsList) {
+        var customSeason = ['00', 'Custom Games', 'All eternity', '(1 game available)', ''];
+        result.push(_.zipObject(['id', 'name', 'description', 'note'], customSeason));
+      }
       $('#content table tr').each(function () {
         var data = $(this), row = [];
         data.children().each(function (i, element) {
@@ -21,6 +26,7 @@ function exportIndex (req, res, next) {
           row.push($(element).text().trim());
 				});
 
+        //console.log(row);
         result.push(_.zipObject(['id', 'name', 'description', 'note'], row));
       });
 
@@ -78,48 +84,110 @@ function exportRound ($, context, r) {
 }
 
 exports.seasons = function (req, res, next) {
-  request('http://www.j-archive.com/listseasons.php', exportIndex(req, res, next));
+  request('http://www.j-archive.com/listseasons.php', exportIndex(req, res, next, true));
 };
 
 exports.season = function (req, res, next) {
-  request('http://www.j-archive.com/showseason.php?season=' + req.params.id, exportIndex(req, res, next));
+  if (req.params.id === '00') {
+    // List custom games
+    var gamesPath = 'games/'
+    fs.readdir(gamesPath, function(err, items) {
+      var games = [];
+
+      for (var i=0; i<items.length; i++) {
+        var customGameLite = {};
+        if (items[i] === '.gitkeep') {
+          continue;
+        }
+        var customGame = JSON.parse(fs.readFileSync(gamesPath + items[i], 'utf8'));
+        customGameLite.id = customGame.id;
+        customGameLite.name = customGame.game_title;
+        customGameLite.note = customGame.game_comments;
+        customGameLite.description = "No description available";
+        games.push(customGameLite);
+      }
+      res.json(games);
+    });
+
+  } else {
+    request('http://www.j-archive.com/showseason.php?season=' + req.params.id, exportIndex(req, res, next, false));
+  }
 }
 
 exports.game = function (req, res, next) {
-  request('http://www.j-archive.com/showgame.php?game_id=' + req.params.id, function (error, response, html) {
-    if (!error) {
-      var $ = cheerio.load(html);
+  var gameUrl;
+  if (req.params.id.startsWith('00')) {
+    fs.readFile('games/' + req.params.id + '.json', 'utf8', function (err, data) {
+      if (err){
+      	next(err);
+      }
+      else
+      {
+      	file = JSON.parse(data);
+      	
+      	var result = {
+	        id: req.params.id,
+	        game_title: file.title,
+	        game_comments: file.comments,
+	        game_complete: false,
+        };
+        
+        result = _.assign(result,file.J,file.DJ,file.FJ);
+        
+        result.game_complete = _.countBy(_.keys(result), function (n) {
+        	return n.split('_')[0];
+      	}).clue === (30 + 30 + 1);
 
-      var result = {
-        id: req.params.id,
-        game_title: $('#game_title').text(),
-        game_comments: $('#game_comments').text(),
-        game_complete: false
-      };
+      	var clueCounts = _.countBy(_.keys(result), function (n) {
+        	return n.split('_').slice(0, 3).join('_');
+      	});
 
-      _.assign(result,
-        exportRound($, $('#jeopardy_round'), 'J'),
-        exportRound($, $('#double_jeopardy_round'), 'DJ'),
-        exportRound($, $('#final_jeopardy_round'), 'FJ'));
+      	_.forEach(result, function (n, key) {
+	        if (_.startsWith(key, 'category')) {
+	          n.clue_count = clueCounts[key.replace('category', 'clue')];
+	        }
+      	});
 
-      result.game_complete = _.countBy(_.keys(result), function (n) {
-        return n.split('_')[0];
-      }).clue === (30 + 30 + 1);
+      	res.json(result);
+      }
+    });
+  } else {
+    gameUrl = 'http://www.j-archive.com/showgame.php?game_id=' + req.params.id;
+    request(gameUrl, function (error, response, html) {
+      if (!error) {
+        var $ = cheerio.load(html);
 
-      var clueCounts = _.countBy(_.keys(result), function (n) {
-        return n.split('_').slice(0, 3).join('_');
-      });
+        var result = {
+          id: req.params.id,
+          game_title: $('#game_title').text(),
+          game_comments: $('#game_comments').text(),
+          game_complete: false
+        };
 
-      _.forEach(result, function (n, key) {
-        if (_.startsWith(key, 'category')) {
-          n.clue_count = clueCounts[key.replace('category', 'clue')];
-        }
-      });
+        _.assign(result,
+          exportRound($, $('#jeopardy_round'), 'J'),
+          exportRound($, $('#double_jeopardy_round'), 'DJ'),
+          exportRound($, $('#final_jeopardy_round'), 'FJ'));
 
-      res.json(result);
-    }
-    else {
-      next(error);
-    }
-  });
+        result.game_complete = _.countBy(_.keys(result), function (n) {
+          return n.split('_')[0];
+        }).clue === (30 + 30 + 1);
+
+        var clueCounts = _.countBy(_.keys(result), function (n) {
+          return n.split('_').slice(0, 3).join('_');
+        });
+
+        _.forEach(result, function (n, key) {
+          if (_.startsWith(key, 'category')) {
+            n.clue_count = clueCounts[key.replace('category', 'clue')];
+          }
+        });
+
+        res.json(result);
+      }
+      else {
+        next(error);
+      }
+    });
+  }
 }

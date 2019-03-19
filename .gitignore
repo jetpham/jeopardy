@@ -1,3 +1,4 @@
 node_modules/
 public/bower_components
-games/
+games/*
+!games/00test.json
