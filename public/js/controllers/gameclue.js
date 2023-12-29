@@ -12,7 +12,7 @@ angular.module('myApp.controllers').
       player_4: {},
       player_5: {}, 
       player_6: {},
-      dd_player: 'player_1'
+      dd_player: 'response.game.control_player'
     };
 
     var value = response.id.split('_');
