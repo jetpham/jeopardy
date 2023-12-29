@@ -19,6 +19,10 @@ angular.module('myApp.controllers').
       $scope.game = data.game;
     });
 
+	$scope.showBoard = function() {
+		window.open('/#/board','_blank');
+	};
+
     $scope.startGame = function () {
       console.log('game:start emit');
       socket.emit('game:start', {
@@ -63,7 +67,7 @@ angular.module('myApp.controllers').
 
         // Keep score.
         result = result[id];
-        [1, 2, 3].forEach(function (num) {
+        [1, 2, 3, 4, 5, 6].forEach(function (num) {
           var key = 'player_' + num
           $scope.game[key] = $scope.game[key] || {};
           $scope.game[key].score = $scope.game[key].score || 0;
