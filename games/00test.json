@@ -1,10 +1,10 @@
 {
   "id": "00test",
-  "game_title": "Test Game",
-  "game_comments": "This is the comment for Test Game",
+  "game_title": "Holiday Party Jeopardy",
+  "game_comments": "Jeopardy game for the December 29th 2023 Holiday Party",
   "game_complete": false,
-  "title": "Test Game",
-  "comments": "Game 7353",
+  "title": "Holiday Party Jeopardy",
+  "comments": "Jeopardy game for the December 29th 2023 Holiday Party",
   "J": {
     "category_J_1": {
       "category_name": "BASEBALL",
@@ -35,9 +35,7 @@
       "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_11.jpg\" target=\"_blank\">Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  In San Diego on August 4, 2007, Barry Bonds hit this ball 382 feet to tie the all-time home run record of this man, technically",
       "clue_text": "(Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.)  In San Diego on August 4, 2007, Barry Bonds hit this ball 382 feet to tie the all-time home run record of this man, technically",
       "correct_response": "Hank Aaron",
-      "media": [
-        "http://localhost:3000/media/2016-07-27_J_11.jpg"
-      ]
+      "media": ["http://localhost:3000/media/2016-07-27_J_11.jpg"]
     },
     "clue_J_2_1": {
       "id": "308310",
@@ -74,9 +72,7 @@
       "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_12.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Here&apos;s the ball hit by this Yankee legend who broke a 44-game hitting streak record held by &quot;Wee Willie&quot; Keeler",
       "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Here's the ball hit by this Yankee legend who broke a 44-game hitting streak record held by \"Wee Willie\" Keeler",
       "correct_response": "Joe DiMaggio",
-      "media": [
-        "http://localhost:3000/media/2016-07-27_J_12.jpg"
-      ]
+      "media": ["http://localhost:3000/media/2016-07-27_J_12.jpg"]
     },
     "clue_J_2_2": {
       "id": "308311",
@@ -114,9 +110,7 @@
       "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_14.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  No major leaguer will ever again be permanently assigned the number of the jersey worn by this man",
       "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  No major leaguer will ever again be permanently assigned the number of the jersey worn by this man",
       "correct_response": "Jackie Robinson",
-      "media": [
-        "http://localhost:3000/media/2016-07-27_J_14.jpg"
-      ]
+      "media": ["http://localhost:3000/media/2016-07-27_J_14.jpg"]
     },
     "clue_J_2_3": {
       "id": "308288",
@@ -154,9 +148,7 @@
       "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_15.jpg\" target=\"_blank\">Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Here&apos;s the 1957 MVP award for this Yankee, but that was a bit of an off year for him: he&apos;d won the Triple Crown the previous year with 18 more home runs &amp; 36 more RBIs",
       "clue_text": "(Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Here's the 1957 MVP award for this Yankee, but that was a bit of an off year for him: he'd won the Triple Crown the previous year with 18 more home runs & 36 more RBIs",
       "correct_response": "Mickey Mantle",
-      "media": [
-        "http://localhost:3000/media/2016-07-27_J_15.jpg"
-      ]
+      "media": ["http://localhost:3000/media/2016-07-27_J_15.jpg"]
     },
     "clue_J_2_4": {
       "id": "308289",
@@ -195,9 +187,7 @@
       "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_21.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Check out the incredibly rare 1909-11 t206 card of this &quot;Flying Dutchman&quot;; in 2013, one went at auction for $2.1 million",
       "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Check out the incredibly rare 1909-11 t206 card of this \"Flying Dutchman\"; in 2013, one went at auction for $2.1 million",
       "correct_response": "Honus Wagner",
-      "media": [
-        "http://localhost:3000/media/2016-07-27_J_21.jpg"
-      ]
+      "media": ["http://localhost:3000/media/2016-07-27_J_21.jpg"]
     },
     "clue_J_2_5": {
       "id": "308290",
@@ -285,9 +275,7 @@
       "clue_html": "The venom-packed stinger of the Arizona barbed variety of <a href=\"http://www.j-archive.com/media/2016-07-27_DJ_30.jpg\" target=\"_blank\">this</a> desert arachnid can deliver a fatal dose to humans",
       "clue_text": "The venom-packed stinger of the Arizona barbed variety of this desert arachnid can deliver a fatal dose to humans",
       "correct_response": "a scorpion",
-      "media": [
-        "http://localhost:3000/media/2016-07-27_DJ_30.jpg"
-      ]
+      "media": ["http://localhost:3000/media/2016-07-27_DJ_30.jpg"]
     },
     "clue_DJ_6_1": {
       "id": "308373",
@@ -312,9 +300,7 @@
       "clue_html": "<a href=\"http://www.j-archive.com/media/2016-07-27_DJ_06.jpg\" target=\"_blank\">This</a> late, great comic said, &quot;Nice guys finish first. if you don&apos;t know that, then you don&apos;t know where the finish line is&quot;",
       "clue_text": "This late, great comic said, \"Nice guys finish first. if you don't know that, then you don't know where the finish line is\"",
       "correct_response": "(Garry) Shandling",
-      "media": [
-        "http://localhost:3000/media/2016-07-27_DJ_06.jpg"
-      ]
+      "media": ["http://localhost:3000/media/2016-07-27_DJ_06.jpg"]
     },
     "clue_DJ_4_2": {
       "id": "308371",
