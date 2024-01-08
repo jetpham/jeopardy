@@ -7,217 +7,209 @@
   "comments": "Jeopardy game for the December 29th 2023 Holiday Party",
   "J": {
     "category_J_1": {
-      "category_name": "BASEBALL",
-      "category_comments": "(Alex: All of the clues were recorded at the Ronald Reagan Presidential Library, where they were having a very special baseball exhibition.)"
+      "category_name": "Comical Creatures",
+      "category_comments": ""
     },
     "category_J_2": {
-      "category_name": "FRUIT STAND",
+      "category_name": "Where in History",
       "category_comments": ""
     },
     "category_J_3": {
-      "category_name": "5-LETTER MUSICAL INSTRUMENTS",
+      "category_name": "Artism",
       "category_comments": ""
     },
     "category_J_4": {
-      "category_name": "TIME'S PERSON OF THE YEAR",
+      "category_name": "Completely Absurd",
       "category_comments": ""
     },
     "category_J_5": {
-      "category_name": "ENGLAND, SCOTLAND OR WALES",
-      "category_comments": "(Alex: You tell us.)"
+      "category_name": "Cat Lovers",
+      "category_comments": ""
     },
     "category_J_6": {
-      "category_name": "WAYS OF BEING",
-      "category_comments": "(Alex: Each correct response will begin with a form of the verb \"to be\".)"
+      "category_name": "Cartoons",
+      "category_comments": ""
     },
     "clue_J_1_1": {
       "id": "308284",
-      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_11.jpg\" target=\"_blank\">Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  In San Diego on August 4, 2007, Barry Bonds hit this ball 382 feet to tie the all-time home run record of this man, technically",
-      "clue_text": "(Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.)  In San Diego on August 4, 2007, Barry Bonds hit this ball 382 feet to tie the all-time home run record of this man, technically",
-      "correct_response": "Hank Aaron",
-      "media": ["http://localhost:3000/media/2016-07-27_J_11.jpg"]
+      "clue_html": "This animal lives over 100 years to see you later",
+      "clue_text": "This animal lives over 100 years to see you later",
+      "correct_response": "What is an Aliigator"
     },
     "clue_J_2_1": {
       "id": "308310",
-      "clue_html": "Golden pippin &amp; Ambrosia are types of this",
-      "clue_text": "Golden pippin & Ambrosia are types of this",
-      "correct_response": "an apple"
+      "clue_html": "These two cities were the first to be struck with a nuclear bomb",
+      "clue_text": "These two cities were the first to be struck with a nuclear bomb",
+      "correct_response": "What is Hiroshima and Nagasaki?"
     },
     "clue_J_3_1": {
       "id": "308312",
-      "clue_html": "In 2015 Steve Martin &amp; Pete Seeger were inducted into the Hall of Fame for this instrument",
-      "clue_text": "In 2015 Steve Martin & Pete Seeger were inducted into the Hall of Fame for this instrument",
-      "correct_response": "the banjo"
+      "clue_html": "What is this painting?",
+      "clue_text": "What is this painting",
+      "correct_response": "Starry Night by Vincent Van Gogh?"
     },
     "clue_J_4_1": {
       "id": "308315",
-      "clue_html": "2004: &quot;For reshaping the rules of politics to fit his ten-gallon style&quot;",
-      "clue_text": "2004: \"For reshaping the rules of politics to fit his ten-gallon style\"",
-      "correct_response": "George W. Bush"
+      "clue_html": "This word is commonly found in memes in the format of (______ Toilet)",
+      "clue_text": "This word is commonly found in memes in the format of (______ Toilet)",
+      "correct_response": "What is Skibidi?"
     },
     "clue_J_5_1": {
       "id": "308317",
-      "clue_html": "Holyhead,<br>Pwll",
-      "clue_text": "Holyhead,Pwll",
-      "correct_response": "Wales"
+      "clue_html": "This animal has cat-like reflexes",
+      "clue_text": "This animal has cat-like reflexes",
+      "correct_response": "What is a cat?"
     },
     "clue_J_6_1": {
       "id": "308321",
-      "clue_html": "In Roman amphitheaters, trap doors led to numerous passageways beneath this fighting space",
-      "clue_text": "In Roman amphitheaters, trap doors led to numerous passageways beneath this fighting space",
-      "correct_response": "the arena"
+      "clue_html": "In Adventure Time, this is the name of the Ice King's penguin",
+      "clue_text": "In Adventure Time, this is the name of the Ice King's penguin",
+      "correct_response": "What is Gunter?"
     },
     "clue_J_1_2": {
       "id": "308285",
-      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_12.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Here&apos;s the ball hit by this Yankee legend who broke a 44-game hitting streak record held by &quot;Wee Willie&quot; Keeler",
-      "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Here's the ball hit by this Yankee legend who broke a 44-game hitting streak record held by \"Wee Willie\" Keeler",
-      "correct_response": "Joe DiMaggio",
-      "media": ["http://localhost:3000/media/2016-07-27_J_12.jpg"]
+      "clue_html": "Who's that Pokemon?",
+      "clue_text": "Who's that Pokemon?",
+      "correct_response": "Greninja"
     },
     "clue_J_2_2": {
       "id": "308311",
-      "clue_html": "Texas developed the Ruby type of this citrus fruit",
-      "clue_text": "Texas developed the Ruby type of this citrus fruit",
-      "correct_response": "a grapefruit"
+      "clue_html": "This was the first capital of the United States",
+      "clue_text": "This was the first capital of the United States",
+      "correct_response": "What is New York City"
     },
     "clue_J_3_2": {
       "id": "308313",
-      "clue_html": "It must have been magic; a platinum one of these woodwinds with silver keys sold for $187,000 in 1986",
-      "clue_text": "It must have been magic; a platinum one of these woodwinds with silver keys sold for $187,000 in 1986",
-      "correct_response": "a flute"
+      "clue_html": "This common art medium has to be thouroughly washed off of painting brushes after use",
+      "clue_text": "This common art medium has to be thouroughly washed off of painting brushes after use",
+      "correct_response": "What is Acryllic Paint"
     },
     "clue_J_4_2": {
       "id": "308316",
-      "clue_html": "1995: &quot;Speaker of the House spearheaded G.O.P.&apos;s sweeping Congressional victory&quot;",
-      "clue_text": "1995: \"Speaker of the House spearheaded G.O.P.'s sweeping Congressional victory\"",
-      "correct_response": "(Newt) Gingrich"
+      "clue_html": "The Artemis mission by Nasa",
+      "clue_text": "The Artemis mission by Nasa",
+      "correct_response": "What is Nasa's Mission to bring people to the Moon?"
     },
     "clue_J_5_2": {
       "id": "308296",
-      "clue_html": "Dunoon,<br>Clydebank",
-      "clue_text": "Dunoon,Clydebank",
-      "correct_response": "Scotland"
+      "clue_html": "This is the name of Jackson's cat",
+      "clue_text": "This is the name of Jackson's cat",
+      "correct_response": "What is Jiji?"
     },
     "clue_J_6_2": {
       "id": "308297",
-      "triple_stumper": true,
-      "clue_html": "Last name of Geoffrey, the first American fashion designer to open a Milan show",
-      "clue_text": "Last name of Geoffrey, the first American fashion designer to open a Milan show",
-      "correct_response": "Beene"
+      "clue_html": "This is a semi-aquatic egg-laying mammal of action",
+      "clue_text": "This is a semi-aquatic egg-laying mammal of action",
+      "correct_response": "Whos is Perry the Platypus?"
     },
     "clue_J_1_3": {
       "id": "308286",
-      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_14.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  No major leaguer will ever again be permanently assigned the number of the jersey worn by this man",
-      "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  No major leaguer will ever again be permanently assigned the number of the jersey worn by this man",
-      "correct_response": "Jackie Robinson",
-      "media": ["http://localhost:3000/media/2016-07-27_J_14.jpg"]
+      "clue_html": "The name of the creature representing the 2024 Lunar New Year",
+      "clue_text": "The name of the creature representing the 2024 Lunar New Year",
+      "correct_response": "What is the Dragon?"
     },
     "clue_J_2_3": {
       "id": "308288",
-      "clue_html": "Get anatomical with a cluster navel or Moro blood one",
-      "clue_text": "Get anatomical with a cluster navel or Moro blood one",
-      "correct_response": "an orange"
+      "clue_html": "These three countries made up the axis powers",
+      "clue_text": "These three countries made up the axis powers",
+      "correct_response": "What is Japan, Germany, and Italy"
     },
     "clue_J_3_3": {
       "id": "308291",
       "daily_double": true,
-      "clue_html": "&#x201C;Pipedreams&#x201D; is a public radio program devoted to this keyboard instrument",
-      "clue_text": "ìPipedreamsî is a public radio program devoted to this keyboard instrument",
-      "correct_response": "the organ"
+      "clue_html": "This is the complimentary color of Orange",
+      "clue_text": "This is the complimentary color of Orange",
+      "correct_response": "What is blue?"
     },
     "clue_J_4_3": {
       "id": "308293",
-      "clue_html": "1958: &quot;Crisis in Algeria brought WWII hero back to power in France&quot;",
-      "clue_text": "1958: \"Crisis in Algeria brought WWII hero back to power in France\"",
-      "correct_response": "de Gaulle"
+      "clue_html": "This is the Color of Jet's 2017 Fiat 500e",
+      "clue_text": "This is the Color of Jet's 2017 Fiat 500e",
+      "correct_response": "What is Red?"
     },
     "clue_J_5_3": {
       "id": "308318",
-      "clue_html": "Slough,<br>Rutland",
-      "clue_text": "Slough,Rutland",
-      "correct_response": "England"
+      "clue_html": "Lego and Lilac",
+      "clue_text": "Lego and Lilac",
+      "correct_response": "What are Max's Cats"
     },
     "clue_J_6_3": {
       "id": "308322",
-      "clue_html": "This powdered root is mixed with water &amp; adds spiciness to sashimi",
-      "clue_text": "This powdered root is mixed with water & adds spiciness to sashimi",
-      "correct_response": "wasabi"
+      "clue_html": "This is Spongebob Squarepants' pet named?",
+      "clue_text": "This is Spongebob Squarepants' pet named?",
+      "correct_response": "What is the Crusty Crab"
     },
     "clue_J_1_4": {
       "id": "308287",
-      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_15.jpg\" target=\"_blank\">Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Here&apos;s the 1957 MVP award for this Yankee, but that was a bit of an off year for him: he&apos;d won the Triple Crown the previous year with 18 more home runs &amp; 36 more RBIs",
-      "clue_text": "(Sarah of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Here's the 1957 MVP award for this Yankee, but that was a bit of an off year for him: he'd won the Triple Crown the previous year with 18 more home runs & 36 more RBIs",
-      "correct_response": "Mickey Mantle",
-      "media": ["http://localhost:3000/media/2016-07-27_J_15.jpg"]
+      "clue_html": "Scabbers",
+      "clue_text": "Scabbers",
+      "correct_response": "What is Ron Weasly's pet rat? or Who is Peter Pettigrew?"
     },
     "clue_J_2_4": {
       "id": "308289",
-      "clue_html": "There&apos;s a giant type of this lime named for islands",
-      "clue_text": "There's a giant type of this lime named for islands",
-      "correct_response": "the key lime"
+      "clue_html": "This is the city that Pulp Fiction's famous grill scene was filmed",
+      "clue_text": "This is the city that Pulp Fiction's famous grill scene was filmed",
+      "correct_response": "Hawthorne"
     },
     "clue_J_3_4": {
       "id": "308314",
-      "clue_html": "This instrument used for military calls has no valves or keys; tones are made by changing the tension of the lips",
-      "clue_text": "This instrument used for military calls has no valves or keys; tones are made by changing the tension of the lips",
-      "correct_response": "the bugle"
+      "clue_text": "This painting depicts Jesus with the Twelve Apostles, as it is told in the Gospel of John",
+      "clue_html": "This painting depicts Jesus with the Twelve Apostles, as it is told in the Gospel of John",
+      "correct_response": "What is the Last Supper by Leonardo Da Vinci"
     },
     "clue_J_4_4": {
       "id": "308294",
-      "clue_html": "1981: &quot;Solidarity leader struck first blows against Kremlin&apos;s empire&quot;",
-      "clue_text": "1981: \"Solidarity leader struck first blows against Kremlin's empire\"",
-      "correct_response": "Lech Walesa"
+      "clue_html": "This is the name of Jet's Fiat 500e",
+      "clue_text": "This is the name of Jet's Fiat 500e",
+      "correct_response": "What is the Ladybug?"
     },
     "clue_J_5_4": {
       "id": "308319",
-      "triple_stumper": true,
-      "clue_html": "Woking,<br>Bootle",
-      "clue_text": "Woking,Bootle",
-      "correct_response": "England"
+      "clue_html": "This kind of cat is often associated with bad luck",
+      "clue_text": "This kind of cat is often associated with bad luck",
+      "correct_response": "What is a black cat?"
     },
     "clue_J_6_4": {
       "id": "308298",
-      "clue_html": "A narrow strip of land; Greece has one of Corinth",
-      "clue_text": "A narrow strip of land; Greece has one of Corinth",
-      "correct_response": "an isthmus"
+      "clue_html": "In Tom and Jerry this is the name of the mouse",
+      "clue_text": "In Tom and Jerry this is the name of the mouse",
+      "correct_response": "What is Jerry?"
     },
     "clue_J_1_5": {
       "id": "308309",
-      "triple_stumper": true,
-      "clue_html": "(<a href=\"http://www.j-archive.com/media/2016-07-27_J_21.jpg\" target=\"_blank\">Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.</a>)  Check out the incredibly rare 1909-11 t206 card of this &quot;Flying Dutchman&quot;; in 2013, one went at auction for $2.1 million",
-      "clue_text": "(Kelly of the Clue Crew reports from the Ronald Reagan Presidential Library.)  Check out the incredibly rare 1909-11 t206 card of this \"Flying Dutchman\"; in 2013, one went at auction for $2.1 million",
-      "correct_response": "Honus Wagner",
-      "media": ["http://localhost:3000/media/2016-07-27_J_21.jpg"]
+      "clue_html": "Nemo's Dad",
+      "clue_text": "Nemo's Dad",
+      "correct_response": "Who is Marlin?"
     },
     "clue_J_2_5": {
       "id": "308290",
-      "clue_html": "The halaway is a sweet type of this palm fruit",
-      "clue_text": "The halaway is a sweet type of this palm fruit",
+      "clue_html": "This is the first location that humans landed on the moon",
+      "clue_text": "This is the first location that humans landed on the moon",
       "correct_response": "a date"
     },
     "clue_J_3_5": {
       "id": "308292",
-      "clue_html": "Alisa Weilerstein &amp; Mstislav Rostropovich are famed players of this stringed instrument",
-      "clue_text": "Alisa Weilerstein & Mstislav Rostropovich are famed players of this stringed instrument",
-      "correct_response": "a cello"
+      "clue_html": "This is the 2023 Pantone Color of the Year",
+      "clue_text": "This is the 2023 Pantone Color of the Year",
+      "correct_response": "What is Viva Magenta"
     },
     "clue_J_4_5": {
       "id": "308295",
-      "clue_html": "1935: Ethiopia&apos;s king fought an incursion by Italy&apos;s strongman, Mussolini",
-      "clue_text": "1935: Ethiopia's king fought an incursion by Italy's strongman, Mussolini",
-      "correct_response": "(Haile) Selassie"
+      "clue_html": "When down the 405 south, the nuclear power plants you pass on the right are often refered to as this",
+      "clue_text": "When down the 405 south, the nuclear power plants you pass on the right are often refered to as this",
+      "correct_response": "What are Boobies?"
     },
     "clue_J_5_5": {
       "id": "308320",
-      "clue_html": "Bangor,<br>Swansea",
-      "clue_text": "Bangor,Swansea",
-      "correct_response": "Wales"
+      "clue_html": "Touch a cat",
+      "clue_text": "Touch a cat",
+      "correct_response": "First person to touch a cat wins this one"
     },
     "clue_J_6_5": {
       "id": "308323",
-      "clue_html": "Yes, Miss Earhart, this 10-letter word means &quot;to improve&quot;",
-      "clue_text": "Yes, Miss Earhart, this 10-letter word means \"to improve\"",
-      "correct_response": "ameliorate"
+      "clue_html": "In Phineas and Ferb, these are the stebrothers' full names",
+      "clue_text": "In Phineas and Ferb, these are the stebrothers' full names",
+      "correct_response": "What are Phineas Flynn and Ferb Fletcher"
     }
   },
   "DJ": {
